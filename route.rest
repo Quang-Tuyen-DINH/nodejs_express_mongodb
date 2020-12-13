@@ -1,0 +1,19 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5fcfad27f6180655787efe92
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "User1",
+  "subscribedToChannel": "ChannelA"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5fcfad27f6180655787efe92
